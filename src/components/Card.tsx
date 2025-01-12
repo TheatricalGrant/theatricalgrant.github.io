@@ -13,7 +13,11 @@ const Card: React.FC<CardProps> = ({ title, imgPath, bodyText, redirect }) => {
             <a href={redirect} className='link'>
                 <img src={imgPath} className='cardImage'></img>
                 <h2 className='title'>{title}</h2>
-                <p className='body'>{bodyText}</p>
+                <div className='body'>
+                    {bodyText.split('\n').map((line, index) => (
+                        <p key={index}>{line}</p>
+                    ))}
+                </div>
             </a>
         </div>
     )
