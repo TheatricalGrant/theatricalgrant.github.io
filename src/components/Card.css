@@ -9,3 +9,23 @@
     max-height: fit-content;
     display: inline-block;
 }
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.title {
+    color:rgb(179, 179, 179);
+}
+
+.body {
+    color:white;
+}
+
+.card .cardImage {
+    margin-bottom: 10px;
+}

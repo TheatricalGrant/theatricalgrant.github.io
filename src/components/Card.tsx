@@ -3,15 +3,18 @@ import './Card.css'
 type CardProps = {
     title: string,
     imgPath: string,
-    bodyText: string;
+    bodyText: string,
+    redirect: string;
 };
 
-const Card: React.FC<CardProps> = ({ title, imgPath, bodyText }) => {
+const Card: React.FC<CardProps> = ({ title, imgPath, bodyText, redirect }) => {
     return (    
         <div className="card">
-            <img src={imgPath}></img>
-            <h2>{title}</h2>
-            <p>{bodyText}</p>
+            <a href={redirect} className='link'>
+                <img src={imgPath} className='cardImage'></img>
+                <h2 className='title'>{title}</h2>
+                <p className='body'>{bodyText}</p>
+            </a>
         </div>
     )
 }
