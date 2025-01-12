@@ -12,3 +12,9 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #393939;
 }
+
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
