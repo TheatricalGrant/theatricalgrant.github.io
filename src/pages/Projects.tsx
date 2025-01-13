@@ -1,6 +1,6 @@
 import Card from '../components/Card'
-import ponggif from 'theatricalgrant.github.io/src/assets/ponggif.gif'
-import sortinggif from 'theatricalgrant.github.io/src/assets/sortinggif.gif'
+import ponggif from 'https://github.com/TheatricalGrant/theatricalgrant.github.io/blob/main/src/assets/ponggif.gif'
+import sortinggif from 'https://github.com/TheatricalGrant/theatricalgrant.github.io/blob/main/src/assets/sortinggif.gif'
 
 export const Projects = () => {
   return (
