@@ -71,3 +71,10 @@
 .about p {
   font-size: 24px;
 }
+
+/*cavin*/
+.cavin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
