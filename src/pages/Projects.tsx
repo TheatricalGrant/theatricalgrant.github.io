@@ -10,7 +10,7 @@ export const Projects = () => {
             imgPath={cavingif}
             bodyText='Created in 72 hours with a friend, for Ludum Dare 48.
              Tools: C#/Unity/WebGL'
-            redirect='http://theatricalgrant.itch.io/#/cavin'
+            redirect='http://theatricalgrant.github.io/#/cavin'
             />
       <Card title="Pong" 
             imgPath={ponggif}
