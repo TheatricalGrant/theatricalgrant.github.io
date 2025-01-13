@@ -2,7 +2,7 @@ import { Route, Routes, Navigate } from 'react-router-dom'
 import { Header } from './components/Header'
 import { About } from "./pages/About"
 import { Projects } from "./pages/Projects"
-import { Cavin } from "./pages/cavin"
+import { Cavin } from "./pages/Cavin"
 
 function App() {
   return (
