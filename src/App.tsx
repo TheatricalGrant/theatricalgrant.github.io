@@ -3,6 +3,7 @@ import { Header } from './components/Header'
 import { About } from "./pages/About"
 import { Projects } from "./pages/Projects"
 import { Cavin } from "./pages/Cavin"
+import { Slimeing } from './pages/Slimeing'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/Projects' element={<Projects />}/>
         <Route path='/About' element={<About />}/>
         <Route path='/cavin' element={<Cavin />}/>
+        <Route path='/slimeing' element={<Slimeing />}/>
       </Routes>
     </div>
   )

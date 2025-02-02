@@ -2,10 +2,17 @@ import Card from '../components/Card'
 import ponggif from '../assets/ponggif.gif'
 import sortinggif from '../assets/sortinggif.gif'
 import cavingif from '../assets/cavingif.gif'
+import slimeingif from "../assets/slimeingif.gif"
 
 export const Projects = () => {
   return (
     <div className='cardContainer'>
+      <Card title="Slime-ing" 
+            imgPath={slimeingif}
+            bodyText='Created in a 2 week game jam, with 2 friends.
+             Tools: GDScript/Godot'
+            redirect='https://theatricalgrant.github.io/#/slimeing'
+            />
       <Card title="Cavin" 
             imgPath={cavingif}
             bodyText='Created in 72 hours with a friend, for Ludum Dare 48.
